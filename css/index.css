@@ -6,9 +6,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	color:#fff;
   	background-color:#333;
-  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
 }
 
 a:link, a:visited {
@@ -16,11 +14,18 @@ a:link, a:visited {
 }
 
 .block {
-	background-color:rgba(0,0,0,0.8);
+	background: rgba(0, 0, 0, 0.83);
     padding-left:12px;
   	padding-right:12px;
+	color:#fff;
 }
-
+.block p{
+text-shadow: none;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+}
 .block-sm {
     height:180px;
 }
@@ -71,7 +76,7 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
-height: 5%;
+height: 2%;
 margin: auto;
 }
 
@@ -79,7 +84,14 @@ margin: auto;
 text-align:center;
 color: #fff;
 font-family: 'Candal', sans-serif;
-font-size:8em;
+font-size:7em;
 text-transform: uppercase;
 letter-spacing: 0.1em;
+margin-top: 150px;
+}
+.strike-team-desc{
+text-align:center;
+color: #fff;
+font-family: 'Candal', sans-serif;
+text-transform: uppercase;
 }
