@@ -4,7 +4,7 @@
 }
 /* start h_logo */
 .logo{
-	float:left;
+	float:right;
 	text-align: center;
 }
 .logo h1 a{
@@ -12,9 +12,13 @@
 	font-size: 3em;
 	font-weight: 600;
 }
+.logo-strike{
+ opacity:0.7;
+ margin-top: -15px;
+}
 /* start h_menu */
 .h_menu{
-	float:right;
+	float:left;
 	margin-top: 0.6em;
 }
 .flexy-menu{
