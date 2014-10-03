@@ -5,6 +5,8 @@
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/index.css" rel='stylesheet' type='text/css' />
 <link href="css/menu.css" rel='stylesheet' type='text/css' />
+<link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
+<link href="css/nanogallery_light.min.css" rel="stylesheet" type="text/css">
 
 <link rel="shortcut icon" type="image/png" href="images/logo-small.png"/>
 
@@ -34,11 +36,49 @@
 				</div>
 				<div class="clear"> </div>
 			</div>
-
-
 </div>
 <div class="clear"> </div>
+<div class="block">
+<div id="galeria">
+		<a href="1.jpg" data-ngthumb="1.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="2.jpg" data-ngthumb="2.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="3.jpg" data-ngthumb="3.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="4.jpg" data-ngthumb="4.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="5.jpg" data-ngthumb="5.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="6.jpg" data-ngthumb="6.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="7.jpg" data-ngthumb="7.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="8.jpg" data-ngthumb="8.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="9.jpg" data-ngthumb="9.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="10.jpg" data-ngthumb="10.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="11.jpg" data-ngthumb="11.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="12.jpg" data-ngthumb="12.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="13.jpg" data-ngthumb="13.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="14.jpg" data-ngthumb="14.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="15.jpg" data-ngthumb="15.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="16.jpg" data-ngthumb="16.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="17.jpg" data-ngthumb="17.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="18.jpg" data-ngthumb="18.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="19.jpg" data-ngthumb="19.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="20.jpg" data-ngthumb="20.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="21.jpg" data-ngthumb="21.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="22.jpg" data-ngthumb="22.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="23.jpg" data-ngthumb="23.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+		<a href="24.jpg" data-ngthumb="24.jpg" data-ngdesc="Equipe Strike Fight Team  - Muay Thai | KickBoxing">Strike Fight Team</a>
+
+	</div>
+</div>
 
 </body>
-<script type="text/javascript" src="js/jquery.min.js"/>
-<script type="text/javascript" src="js/flexy-menu.js"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.nanogallery.js"></script>
+<script type="text/javascript" src="js/flexy-menu.js"></script>
+
+<script>
+	jQuery("#galeria").nanoGallery({thumbnailWidth:160,thumbnailHeight:160,
+				itemsBaseURL:'images/galeria',
+				thumbnailHoverEffect:[{'name':'scaleLabelOverImage','duration':300},{'name':'borderLighter'}],				
+				colorScheme:'clean',
+				thumbnailLabel:{display:true,position:'overImageOnTop', align:'center'},
+        viewerDisplayLogo:true
+			});
+</script>
